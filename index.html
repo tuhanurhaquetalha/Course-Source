@@ -20,25 +20,25 @@
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse " id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 p-5">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 p-4">
                   <li class="nav-item">
-                    <a class="nav-link active fs-5 p-5 " aria-current="page" href="#">Home</a>
+                    <a class="nav-link active fs-5 p-4 " aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item ">
-                    <a class="nav-link active fs-5  p-5" href="#">Courses</a>
+                    <a class="nav-link active fs-5  p-4" href="#">Courses</a>
                   </li>
                 
                   <li class="nav-item">
-                    <a class="nav-link active fs-5 p-5" href="#">Deal </a>
+                    <a class="nav-link active fs-5 p-4" href="#">Deal </a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active fs-5 p-5" href="#">Success </a>
+                    <a class="nav-link active fs-5 p-4" href="#">Success </a>
                   </li>
                   <li class="nav-item ">
-                    <a class="nav-link active fs-5 p-5 " href="#">About </a>
+                    <a class="nav-link active fs-5 p-4 " href="#">About </a>
                   </li>
                   <li class="nav-item ">
-                    <a class="nav-link active fs-5 p-5" href="#">Register </a>
+                    <a class="nav-link active fs-5 p-4" href="#">Register </a>
                   </li>
                 </ul>
                
@@ -265,22 +265,50 @@
       </div>
     </section>
     <!-- modal part start  -->
-    <section class="container mt-5 ">
-      <div class="d-flex p-3 mb-2 bg-primary">
+    <section class="container mt-5  ">
+      <div class="d-flex p-3 mb-2 bg-primary rounded">
         <div>
           <h1 class="text-white ">Ready to join?</h1> 
           <h6 class="text-white">It is a well-known fact that a reader will be diverted from a page's readable content when examining its layout.</h6>
         </div>
-        <div class="modal-body">
-         
-          <p> <a href="https://www.figma.com/file/8YbM936N4cYPxQoILwyBZz/EdTech-Website?node-id=2%3A2" role="button" class="btn btn-secondary" data-bs-toggle="popover" title="Popover title" data-bs-content="Popover body content is set in this attribute.">button</a> </p>
-          
-         
-         
-        </div>
-        <div class="p-5">
+        <!-- modal create  -->
+        <div class="container mt-5 ">
+          <button class="btn  bg-white text-primary fw-bolder ali" type="button" data-bs-target="#myModal" data-bs-toggle="modal">Register Now</button>
+  
+          <div class="modal" id="myModal">
+              <div class="modal-dialog">
+                  <div class="modal-content">
+                      <div class="modal-header bg-info text-white">
+                          <h5 class="modal-title ">First Modal</h5>
+                          <button class="btn-close" type="button" data-bs-dismiss="modal"></button>
+                      </div>
+                      <div class="modal-body">
+                          <label for="message" class="form-label">Message</label>
+                          <textarea class="form-control"></textarea>
+                      </div>
+                      <div class="modal-footer">
+                          <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#secondModal" data-bs-dismiss="modal">Submit</button>
+                          <button class="btn btn-danger" data-bs-dismiss="modal">Cancel</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="modal" id="secondModal">
+              <div class="modal-dialog">
+                  <div class="modal-content">
+                      <div class="modal-header alert alert-success">
+                          <h5 class="modal-title">Second Modal</h5>
+                          <button class="btn-close" type="button" data-bs-dismiss="modal"></button>
+                      </div>
+                      <div class="modal-body">
+                          <p>Message Received</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+        <!-- modal finished  -->
         
-        </div>
       </div>
       
     </section>
@@ -292,8 +320,8 @@
     <section class="container">
       <div>
         <h1 class="mt-5 text-center fw-bold ">Frequently Asked Questions</h1>
-        <p class="text-center mt-3">It is a long established fact that a reader will be distracted by the readable </p>
-        <p class="text-center">content of a page when looking at its layout.</p>
+        <p class="text-center mt-3 fs-6 fw-normal">It is a long established fact that a reader will be distracted by the readable </p>
+        <p class="text-center fs-6 fw-normal">content of a page when looking at its layout.</p>
       </div>
       <!-- accordion part  -->
       <div class="align-items-center p-5">
@@ -354,6 +382,7 @@ Examples of semantic elements: form, table, and article - Clearly defines its co
       </div>
       <!-- accordion part end  -->
           </section>
+          <!-- companies part start  -->
           <section class="container">
             <h1 class="text-center">Trusted by over 800+ companies</h1>
             <div class="d-flex p-5 justify-content-center justify-content-around">
@@ -384,6 +413,7 @@ Examples of semantic elements: form, table, and article - Clearly defines its co
             </div>
             
                       </section>
+                       <!-- companies part end  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 <footer class="bg-warning w-100%">
