@@ -1,4 +1,6 @@
-
+img{
+    max-width: 100%;
+}
 .position{
     bottom: 180px;
    padding-left: 100px;
